@@ -123,8 +123,8 @@ export default function App() {
         </Dropzone>
         </div>
         <div style={{display:'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
-          <button style={{ justifyContent: 'center', alignItems: 'center',margin: 10}} disabled={final.length === 0}  onClick={downloadTxtFile}>Gerar tabela</button>
-          <button style={{justifyContent: 'center', alignItems: 'center',margin: 10}} disabled={final.length === 0} onClick={limpar}>Limpar seleção</button>
+          <button style={{ justifyContent: 'center', alignItems: 'center',margin: 10}} disabled={fileNames.length === 0}  onClick={downloadTxtFile}>Gerar tabela</button>
+          <button style={{justifyContent: 'center', alignItems: 'center',margin: 10}} disabled={fileNames.length === 0} onClick={limpar}>Limpar seleção</button>
         </div>
 
     </div>
